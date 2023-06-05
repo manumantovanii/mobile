@@ -39,23 +39,41 @@
      
     }
     form input[type=submit]{
-        width: 100%;
+        width: 50%;
         height: 40px;
         cursor: pointer;
-        background: #5F7C8A;
+        background: #db00e2;
         color: white;
         border: 0;
         border-radius: 20px;
         transition: 1s;
+        float: left;
     }
     form input[type=submit]:hover{
-        background-color: #4A5F6A;
+        background-color:#db00e2;
     }
-    form input[type=text]:focus{
-        outline: 0;
+    form input[type=text],
+    form input[type=password]{
+      width: 100%;
+      height: 35px;
+      border: 1px solid#ccc;
+      padding-left: 10px;
+      margin: 10px 0;
+     
     }
-    form input[type=password]:focus{
-        outline: 0;
+    form input[type=reset]{
+        width: 50%;
+        height: 40px;
+        cursor: pointer;
+        background:#db00e2;
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        transition: 1s;
+        float: left;
+    }
+    form input[type=reset]:hover{
+        background-color:#db00e2;
     }
     </style>
     <script>
